@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/joinus_css.css">
+</head>
+<body>
+    <form action="insert.php" method="post">
+        <div class="joinus_title">
+            <header>
+                <h1>manger le univers</h1>
+            </header>
+        </div>
+        <div class="joinus_table">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <div class="sec_title">
+                            <h2>회원가입</h2>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" name="u_id"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="password" name="u_pass"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호 확인</td>
+                    <td><input type="password" name="u_pass_chk"></td>
+                </tr>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" name="u_name"></td>
+                </tr>
+                <tr>
+                    <td>닉네임</td>
+                    <td><input type="text" name="u_nickname"></td>
+                </tr>
+                <tr>
+                    <td>성별</td>
+                    <td>
+                        남자 <input type="radio" name="u_gender" value="0" checked>
+                        여자 <input type="radio" name="u_gender" value="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>이메일 주소</td>
+                    <td><input type="email" name="u_email"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="joinus_btn">
+                            <button class="submit_btn" type="submit">회원가입</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>

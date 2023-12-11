@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*제목*/
+.main_title {
+    font-size: 15pt;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(121, 197, 121);
+}
+
+/*메뉴*/
+.header {
+    border-top: 2px solid black;
+}
+
+/*header_top*/
+.header_top {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(51, 176, 51);
+}
+.header_menu_btn, .header_reservation_btn, .header_review_btn {
+    background-color: rgb(51, 176, 51);
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*header_bottom*/
+.header_bottom {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header_joinus_btn, .header_login_btn, .header_mypage_btn {
+    border: 0;
+    margin-right: 20px;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+/*introduce_menu*/
+.introduce_menu {
+    text-align: center;
+}
+
+/*local_information*/
+.store_local_info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 8pt;
+    margin: 10px;
+    margin-top: 150px;
+}
+.local_info_right {
+    text-align: end;
+}
